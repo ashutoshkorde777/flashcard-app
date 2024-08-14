@@ -1,0 +1,28 @@
+.flashcard-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 500px; 
+  }
+
+
+  .flashcard-list button {
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .flashcard-list button:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+
+  .buttons{
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  
